@@ -25,7 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    gap: 24px;
+    gap: 16px;
 }
 
 .header {
@@ -40,18 +40,18 @@ body {
     text-align: center;
     padding: 8px;
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
 }
 
 .week {
     display: flex;
     flex-flow: row wrap;
-    gap: 16px;
+    gap: 32px;
 }
 
 .Monday, .Tuesday, .Wednesday, .Thursday, .Friday, .Saturday, .Sunday {
-    width: 250px;
+    width: 225px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -64,10 +64,10 @@ body {
 .CLP, .HISMLS, .HISMLS-L, .CPH, .HISTO, .MTLE, .IQC, .WORLD, .LAB, .SURVIVAL {
     background-color: rgb(255, 255, 255);
     width: 200px;
-    padding: 24px;
+    padding: 16px;
     display: flex;
     flex-flow: column nowrap;
-    margin: 14px;
+    margin: 8px;
     border-radius: 30% 10%;
     border: 3px #8b4000 solid;
 }
